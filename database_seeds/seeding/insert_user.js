@@ -14,11 +14,7 @@ var users = [
         name: "Organiser1",
         type: "Organiser",
         gender: "Male",
-        phone: "unknown",
-        childName: "none",
-        childAge: 0,
-        childDisability: "none",
-        childGender: "none"
+        phone: "unknown"
     }),
     
     new User({
@@ -28,13 +24,8 @@ var users = [
         name: "Organiser2",
         type: "Organiser",
         gender: "Male",
-        phone: "unknown",
-        childName: "none",
-        childAge: 0,
-        childDisability: "none",
-        childGender: "none"
+        phone: "unknown"
     }),
-
 
     //Parents
     new User({
@@ -45,10 +36,18 @@ var users = [
         type: "Normal",
         gender: "Male",
         phone: "unknown",
-        childName: "Child1",
-        childAge: 7,
-        childDisability: "deaf",
-        childGender: "Male"
+        children: [{
+            childName: "Child1",
+            childAge: 7,
+            childDisability: "deaf",
+            childGender: "Male"
+        },
+        {
+            childName: "Child2",
+            childAge: 10,
+            childDisability: "deaf",
+            childGender: "Male"
+        }]
     }),
 
     new User({
@@ -59,10 +58,12 @@ var users = [
         type: "Normal",
         gender: "Male",
         phone: "unknown",
-        childName: "Child2",
-        childAge: 9,
-        childDisability: "blind",
-        childGender: "Female"
+        children: [{
+            childName: "Child2",
+            childAge: 9,
+            childDisability: "blind",
+            childGender: "Female"
+        }]
     }),
 
     //Admins
@@ -73,11 +74,7 @@ var users = [
         name: "Admin1",
         type: "Admin",
         gender: "Male",
-        phone: "unknown",
-        childName: "none",
-        childAge: 0,
-        childDisability: "none",
-        childGender: "none"
+        phone: "unknown"
     }),
 
     new User({
@@ -87,11 +84,7 @@ var users = [
         name: "admin2",
         type: "Admin",
         gender: "Male",
-        phone: "unknown",
-        childName: "none",
-        childAge: 0,
-        childDisability: "none",
-        childGender: "none"
+        phone: "unknown"
     })
 ];
 

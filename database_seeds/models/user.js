@@ -8,14 +8,18 @@ const schema = new Schema({
     type: {type: String, default: "Normal"},
     gender: {type: String, required: true},
     phone: {type: String},
+    address: {type: String},
     image: {type: String, reqired: false},
     activated: {type: Boolean, default: false},
     country: {type: String, default: 'none'},
-    childName: {type: String, required: true},
-    childAge: {type: Number, required: true},
-    childDisability: {type: String, required: true},
-    childGender: {type: String, required: true},
-    attendedMeetings: {type: Array, default: []}
+    attendedMeetings: {type: Array, default: []},
+    createdMeetings: {type: Array, default: []},
+    children: [{
+        childName: {type: String},
+        childAge: {type: Number},
+        childDisability: {type: String},
+        childGender: {type: String}
+    }]
 })
 
 module.exports = mongoose.model('User', schema);
