@@ -1,3 +1,4 @@
 {
-    "mongoosePort" : "mongodb://localhost:27017/testmeetup"
+    "mongoosePort" : "mongodb://localhost:27017/testmeetup",
+    "KEY" : "secretKey"
 }
