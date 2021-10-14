@@ -7,7 +7,7 @@ mongoose.connect(mongoosePort)
 
 module.exports.deleteMeeting = (req, res) => {
     if (req.userType == "Admin") {
-        userModel.findOneAndDelete({_id: ObjectId(req.params.meetingId)})
+        meetingModel.findOneAndDelete({_id: ObjectId(req.params.meetingId)})
         .then((meeting) => {
             res.json({message: "Deleted"})
         }) 
