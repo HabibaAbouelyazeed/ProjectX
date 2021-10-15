@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const User = require('../models/user')
+const User = require('../models/user');
 const url = require('../../env_variables/env_vars.json').mongoosePort;
 
 mongoose.connect(url)

@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const userModel = require('../database_seeds/models/user')
+const userModel = require('../database_seeds/models/user');
 const jwt = require('jsonwebtoken');
 const mongoosePort = require('../env_variables/env_vars.json').mongoosePort;
 const KEY = require('../env_variables/env_vars.json').KEY;
@@ -11,9 +11,7 @@ module.exports.login = (req, res) => {
     userModel.find({email: enteredData.email, password: enteredData.password})
     .then((docs) => {
         if (docs.length == 0){
-            if (err) {
-                res.sendStatus(404);
-            }
+            res.sendStatus(404);
         } else {
             var user = docs[0];
             jwt.sign({user}, KEY, {expiresIn: '2h'}, (err, token) => {

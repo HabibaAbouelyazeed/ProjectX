@@ -6,7 +6,9 @@ const {auth} = require('./middlewares/auth')
 const {getUser} = require('./controllers/getUser')
 const {getMeeting} = require('./controllers/getMeeting')
 const {deleteUser} = require('./controllers/deleteUser')
-const {deleteMeeting} = require('./controllers/deleteMeeting')
+const {cancelMeeting} = require('./controllers/cancelMeeting')
+const {joinMeeting} = require('./controllers/joinMeeting')
+
 
 app.use(bodyParser.urlencoded({ extended: false }))
 
@@ -16,7 +18,8 @@ app.post('/login', login)
 app.get('/users/:userId', getUser)
 app.get('/meetings/:meetingId', getMeeting)
 app.delete('/users/:userId', auth, deleteUser)
-app.delete('/meetings/:meetingId', auth, deleteMeeting)
+app.put('/meetings/cancel/:meetingId', auth, cancelMeeting)
+app.put('/meetings/:meetingId', auth, joinMeeting)
 
 app.listen(8000, ()=>{
     console.log('Server running on port 8000')

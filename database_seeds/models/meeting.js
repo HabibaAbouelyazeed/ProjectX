@@ -6,6 +6,7 @@ const schema = new Schema({
     disabilityType: {type: String, required: true},
     dateAndTime: {type: Date, required: true},
     type: {type: String, required: true, default: "Private"},
+    cancelled: {type: Boolean, default: false},
     organiser: {type: mongoose.Schema.Types.ObjectId},
     attendees: [{type: mongoose.Schema.Types.ObjectId}]
 })

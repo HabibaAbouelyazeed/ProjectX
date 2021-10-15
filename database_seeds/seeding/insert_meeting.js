@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Meeting = require('../models/meeting')
+const Meeting = require('../models/meeting');
 const url = require('../../env_variables/env_vars.json').mongoosePort;
 
 mongoose.connect(url)
