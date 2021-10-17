@@ -1,7 +1,12 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
+const {signup} = require('./controllers/signup');
 const {login} = require('./controllers/login'); 
+const {changePassword} = require('./controllers/changePassword');  
+const {changeUsername} = require('./controllers/changeUsername');  
+const {changeEmail} = require('./controllers/changeEmail');  
+const {addChildren} = require('./controllers/addChildren');  
 const {auth} = require('./middlewares/auth')
 const {getUser} = require('./controllers/getUser')
 const {getMeeting} = require('./controllers/getMeeting')
@@ -14,7 +19,12 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 app.use(bodyParser.json())
 
+app.post('/signup', signup)
 app.post('/login', login)
+app.post('/changePassword',changePassword)
+app.post('/changeUsername',changeUsername)
+app.post('/changeEmail',changeEmail)
+app.post('/addChildren',addChildren)
 app.get('/users/:userId', getUser)
 app.get('/meetings/:meetingId', getMeeting)
 app.delete('/users/:userId', auth, deleteUser)
