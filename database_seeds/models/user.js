@@ -13,6 +13,7 @@ const schema = new Schema({
     activated: {type: Boolean, default: false},
     country: {type: String, default: 'none'},
     attendedMeetings: {type: Array, default: []},
+    requestedMeetings: {type: Array, default: []},
     createdMeetings: {type: Array, default: []},
     children: [{
         childName: {type: String},

@@ -13,6 +13,8 @@ const {getMeeting} = require('./controllers/getMeeting')
 const {deleteUser} = require('./controllers/deleteUser')
 const {cancelMeeting} = require('./controllers/cancelMeeting')
 const {joinMeeting} = require('./controllers/joinMeeting')
+const {requestMeeting} = require('./controllers/requestMeeting')
+const {getAllMeetings} = require('./controllers/getAllMeetings')
 
 
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -30,6 +32,9 @@ app.get('/meetings/:meetingId', getMeeting)
 app.delete('/users/:userId', auth, deleteUser)
 app.put('/meetings/cancel/:meetingId', auth, cancelMeeting)
 app.put('/meetings/:meetingId', auth, joinMeeting)
+app.post('/reqMeeting/:userId', auth, requestMeeting)
+app.get('/home', auth, getAllMeetings)
+
 
 app.listen(8000, ()=>{
     console.log('Server running on port 8000')
