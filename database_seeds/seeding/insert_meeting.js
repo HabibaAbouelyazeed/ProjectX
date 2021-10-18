@@ -7,6 +7,16 @@ mongoose.connect(url)
 var meetings = [
 
     new Meeting({
+        _id: "616c6bc26e4ad1a5b5ec2602",
+        discription: "First Meeting in the website",
+        disabilityType: "Blind",
+        dateAndTime: "2021-10-17T18:30:26.604Z",
+        type: "Private",
+        cancelled: false,
+        attendees: []
+    }),
+    
+    new Meeting({
         disabilityType: "deaf",
         dateAndTime: "July 4 2021 12:30",
         type: "Private"
