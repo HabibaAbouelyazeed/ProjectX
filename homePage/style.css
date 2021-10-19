@@ -1,0 +1,259 @@
+.navBar{
+    top: 0px;
+    height: 80px;
+    width: 1920px;
+    background-image: linear-gradient(to right, #4CEA3B , #F1F917); 
+}
+.appTitle{
+    position: relative;
+    width: 214px;
+    height: 56px;
+    top: 12px;
+    right: -48px;
+}
+.appLogo{
+    position: relative;
+    width: 56px;
+    height: 56px;
+    top: 0px;
+    right: -9px;
+    background-image: url(AppIcon.SVG);
+}
+.appName{
+    position: absolute;
+    width: 105px;
+    height: 24px;
+    top: 17px;
+    right: 19px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: #0E4101;
+}
+.linksBar{
+    position: relative;
+    width: 812px;
+    height: 28px;
+    top: -30px;
+    right: -554px;
+    font-size: 20px;
+    color: #114A15;
+    font-family:poppins;
+    font-weight: lighter;
+}
+.home{
+    width: 64px;
+    height: 28px;
+    top: 0px;
+    right: 660px;
+    font-weight: bolder;
+}
+.community{
+    position: absolute;
+    width: 121px;
+    height: 28px;
+    top: 0px;
+    right: 387px;
+}
+.events{
+    position: absolute;
+    width: 76px;
+    height: 28px;
+    top: 0px;
+    right: 50px;
+}
+.signUP{
+    position: absolute;
+    width: 181px;
+    height: 40px;
+    top: 30px;
+    right: 50px;
+    font-size: 18px;
+    color: white;
+    font-family: poppins;
+    font-weight: lighter;
+}
+.singIn{
+    position: absolute;
+    width: 65px;
+    height: 28px;
+    top: 30px;
+    right: 50px;
+}
+.signUPbutton{
+    position: absolute;
+    width: 65px;
+    height: 28px;
+    top: 0px;
+    right: 50px;
+    background-color: #114A15;
+    border-radius: 5px;
+    box-shadow: 1px 1px grey;
+    
+}
+.aboutUs{
+    position: absolute;
+    height: 472px;
+    width: 954px;
+    top: 260px;
+    right: 828px;
+
+}
+.aboutUsTitle{
+    position: relative;
+    height: 113px;
+    width: 366px;
+    top: 0px;
+    right: 0px;
+    font-size: 80px;
+    font-family: poppins;
+    font-weight: normal;
+}
+.aboutUsParagraph{
+    position: relative;
+    height: 309px;
+    width: 900px;
+    top: 163px;
+    right: 0px;
+    font-size: 25px;
+    font-family: poppins;
+    font-weight: light;
+}
+.kidPhoto{
+    position: absolute;
+    height: 527.5px;
+    width: 730px;
+    top: 234px;
+    right: 140px;
+    background-image: url("kidPhoto.SVG");
+}
+.border{
+    position: absolute;
+    height: 1px;
+    width: 1640px;
+    top: 962px;
+    right: 140px;
+    background-color: #0E4101;
+}
+.cardCommunity{
+    position: absolute;
+    height: 688px;
+    width: 440px;
+    top: 1163px;
+    right: 1305px;
+    border-style: solid;
+    border-color: #707070;
+    border-radius: 20px;
+}
+.photo1{
+    position: relative;
+    height: 303px;
+    width: 364px;
+    top: 30px;
+    right: -38px;
+    background-image: url("communityPhoto.SVG");
+}
+.title1{
+    position: relative;
+    height: 43px;
+    width: 183px;
+    top: 100px;
+    right: -38px;
+    font-size: 30px;
+    font-family: poppins;
+    font-weight: bold;
+}
+.paragraph1{
+    position: relative;
+    height: 73px;
+    width: 287px;
+    top: 150px;
+    right: -38px;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: lighter;
+}
+.cardMeetUp{
+    position: absolute;
+    height: 688px;
+    width: 440px;
+    top: 1163px;
+    right: 740px;
+    border-style: solid;
+    border-color: #707070;
+    border-radius: 20px;
+}
+.photo2{
+    position: relative;
+    height: 303px;
+    width: 364px;
+    top: 30px;
+    right: -38px;
+    background-image: url("meetUpPhoto.SVG");
+}
+.title2{
+    position: relative;
+    height: 43px;
+    width: 183px;
+    top: 100px;
+    right: -38px;
+    font-size: 30px;
+    font-family: poppins;
+    font-weight: bold;
+}
+.paragraph2{
+    position: relative;
+    height: 73px;
+    width: 287px;
+    top: 150px;
+    right: -38px;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: lighter;   
+}
+.cardEvent{
+    position: absolute;
+    height: 688px;
+    width: 440px;
+    top: 1163px;
+    right: 218px;
+    border-style: solid;
+    border-color: #707070;
+    border-radius: 20px;
+}
+.photo3{
+    position: relative;
+    height: 303px;
+    width: 364px;
+    top: 30px;
+    right: -38px;
+    background-image: url("eventsPhoto.SVG");
+}
+.title3{
+    position: relative;
+    height: 43px;
+    width: 183px;
+    top: 100px;
+    right: -38px;
+    font-size: 30px;
+    font-family: poppins;
+    font-weight: bold;
+}
+.paragraph3{
+    position: relative;
+    height: 73px;
+    width: 287px;
+    top: 150px;
+    right: -38px;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: lighter;   
+}
+.footer{
+    position: absolute;
+    height: 247px;
+    width: 1920px;
+    top: 2057px;
+    right: 0px;
+    background-image: url("footerPhoto.SVG");
+}
