@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="50" viewBox="0 0 47 50">
+  <defs>
+    <pattern id="pattern" width="1" height="1" viewBox="-17.888 -12.715 70.905 75.431">
+      <image preserveAspectRatio="xMidYMid slice" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAAX0lEQVRIie3RMQrAMAxDUZH738oHS8cEDwIju1CqD56FeYD7WwFgD13cQ2v8ldN+cesDdRoHSJPGNqUpxtQ012ls01IV45JpTjG2qRQzlkxzFWObtnYbt5rmmLFNndQDOt9W49Kjf+gAAAAASUVORK5CYII="/>
+    </pattern>
+  </defs>
+  <path id="icons8-sorting-30" d="M20,0H47a0,0,0,0,1,0,0V50a0,0,0,0,1,0,0H20A20,20,0,0,1,0,30V20A20,20,0,0,1,20,0Z" opacity="0.5" fill="url(#pattern)"/>
+</svg>
