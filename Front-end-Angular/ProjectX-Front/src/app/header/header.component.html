@@ -1,3 +1,35 @@
-<a [routerLink]="['/signIn']" routerLinkActive="activebutton"  class="btn btn-link">Sign in</a>
+<div class="H5-navBar uH5-disp-flex uH5-justify-spc-betw uH5-flex-center">
+    
+    <!-- AppName and Logo -->
+    <div class="H5-appTitle uH5-disp-flex uH5-justify-spc-betw uH5-flex-center">
+        <div class="iH5-app-logo iH5-size-a iH5-image-contain"></div>
+        <div class="H5-appName fH5-poppins fH5-f-20 fH5-bold">ProjectX</div>
+    </div>
+
+
+    <!-- Pages Navs Container  -->
+    <div class="H5-navsContainer uH5-disp-flex uH5-justify-spc-betw">
+        <div class="H5-header-splitter cH5-bg-c1 uH5-radius-1"></div>
+        <a [routerLink]="['/']" routerLinkActive="activebutton"  class="fH5-poppins fH5-f-20 cH5-c1">Home</a>
+        <a [routerLink]="['/']" routerLinkActive="activebutton"  class="fH5-poppins fH5-f-20 cH5-c1">Community</a>
+        <a [routerLink]="['/']" routerLinkActive="activebutton"  class="fH5-poppins fH5-f-20 cH5-c1">Events</a>
+        <div class="H5-header-splitter cH5-bg-c1 uH5-radius-1"></div>
+    </div>
+
+    <!-- Sign in Container -->
+    <div class="H5-signIn-container uH5-disp-flex uH5-justify-spc-betw">
+        <div class="H5-signIn-buttons cH5-bg-c2 uH5-radius-8">
+            <a [routerLink]="['/signIn']" routerLinkActive="activebutton"  class="fH5-poppins fH5-f-20 cH5-c2">Sign in</a>
+        </div>
+        <div class="H5-signIn-buttons cH5-bg-c2 uH5-radius-8">
+            <a [routerLink]="['/']" routerLinkActive="activebutton"  class="fH5-poppins fH5-f-20 cH5-c2">Sign up</a>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
 <!-- <a [routerLink]="['/layout']" routerLinkActive="activebutton"  class="btn btn-link">Community</a> -->
 <!-- <router-outlet></router-outlet> -->
