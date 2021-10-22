@@ -7,6 +7,7 @@ import { LayoutModule } from './layout/layout.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SignInPageComponent } from './sign-in-page/sign-in-page.component';
 import { HeaderComponent } from './header/header.component';
+import { HomePageComponent } from './home-page/home-page.component';
 import { HomePageModule } from './home-page/home-page.module';
 
 @NgModule({
@@ -14,13 +15,14 @@ import { HomePageModule } from './home-page/home-page.module';
     AppComponent,
     SignInPageComponent,
     HeaderComponent,
+    HomePageComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     LayoutModule,
-    BrowserAnimationsModule,
-    HomePageModule
+    HomePageModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
