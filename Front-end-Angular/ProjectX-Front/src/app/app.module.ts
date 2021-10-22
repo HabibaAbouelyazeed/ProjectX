@@ -10,6 +10,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { HomePageModule } from './home-page/home-page.module';
 import { CommunityPageComponent } from './community-page/community-page.component';
 import { CommunityPageModule } from './community-page/community-page.module';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { CommunityPageModule } from './community-page/community-page.module';
     HeaderComponent,
     HomePageComponent,
     CommunityPageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
