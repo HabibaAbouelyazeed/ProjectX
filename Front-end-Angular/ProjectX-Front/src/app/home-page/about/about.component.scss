@@ -1,0 +1,108 @@
+/* Flex Box */
+
+.Y0-flex-container {
+    display: flex;
+}
+
+.Y0-flex-between {
+    justify-content: space-between;
+}
+
+.Y0-flex-around {
+    justify-content: space-around;
+}
+
+.Y0-flex-align-center {
+    align-items: center;
+}
+
+.Y0-flex-justify-center {
+    justify-content: center;
+}
+
+.Y0-flex-justify-end {
+    justify-content: flex-end;
+}
+
+.Y0-flex-align-end {
+    align-items: flex-end;
+}
+
+.Y0-flex-justify-self-end {
+    justify-self: flex-end;
+}
+
+.Y0-flex-dir-col {
+    flex-direction: column;
+}
+
+
+/* Flex Box ===END*/
+
+.Y0-aboutUs-section {
+    margin-top: 154px;
+}
+
+.Y0-width-main {
+    width: 1642px;
+}
+
+.Y0-aboutUs-holder {
+    width: 822px;
+    height: 472px;
+    // background-color: red;
+}
+
+.iY0-size-a {
+    width: 730px;
+    height: 528px;
+}
+
+.iY0-card-image1 {
+    background-image: url("../../../assets/images/banner1.svg");
+}
+
+.Y0-font-a {
+    font-family: poppins;
+    font-size: 81px;
+    color: #000000;
+    margin-top: 26px;
+    margin-bottom: 50px;
+}
+
+.Y0-font-b {
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: regular;
+    line-height: 38px;
+    color: #000000;
+}
+
+.Y0-margin-bot-200 {
+    margin-bottom: 200px;
+}
+
+.Y0-horizontal-spacer {
+    width: 1640px;
+    height: 1px;
+    background-color: rgba($color: #0E4101, $alpha: 0.55);
+}
+
+
+/* Animations */
+
+
+/* Animations ===END*/
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 960px) {
+    .Y0-aboutUs-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* Media Queries ===END */
