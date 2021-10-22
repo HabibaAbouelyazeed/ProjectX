@@ -1,30 +1,35 @@
+input,
+a {
+    all: unset;
+}
 
-input,a { all: unset; }
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #929699;
     padding-left: 20px;
 }
 
-.H5-pointer{
+.H5-pointer {
     cursor: pointer;
 }
 
+.H5-banner-container {
+    grid-area: banner;
+}
 
-.H5-banner-container { grid-area: banner; }
-.H5-main-container { grid-area: main; }
-
+.H5-main-container {
+    grid-area: main;
+}
 
 .H5-grid-container {
     display: grid;
-    grid-template-areas:
-      'main banner';
-
+    grid-template-areas: 'main banner';
     width: 1100px;
     height: 700px;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.20);
 }
 
-.H5-banner-container{
+.H5-banner-container {
     opacity: 0.75;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,17 +41,17 @@ input,a { all: unset; }
     background-color: aqua;
 } */
 
-.H5-info-container{
+.H5-info-container {
     width: 300px;
     height: 231px;
 }
 
-.H5-field-container{
+.H5-field-container {
     height: 52px;
     border: 1px solid #E0E3E5;
 }
 
-.H5-login-button{
+.H5-login-button {
     width: 100px;
     height: 52px;
     align-self: center;
@@ -54,92 +59,99 @@ input,a { all: unset; }
 
 
 /*Utilities ===> START*/
-.uH5-disp-flex{
+
+.uH5-disp-flex {
     display: flex;
 }
 
-.uH5-flex-col{
+.uH5-flex-col {
     flex-direction: column;
 }
 
-.uH5-flex-center{
+.uH5-flex-center {
     align-items: center;
 }
 
-.uH5-justify-center{
+.uH5-justify-center {
     justify-content: center;
 }
 
-.uH5-justify-spc-betw{
+.uH5-justify-spc-betw {
     justify-content: space-between;
 }
 
-.uH5-marg-center{
+.uH5-marg-center {
     margin: auto;
 }
 
-.uH5-marg-left{
+.Y0-marg-top-200 {
+    margin-top: 200px;
+}
+
+.uH5-marg-left {
     margin-left: auto !important;
 }
 
-.uH5-radius-8{
+.uH5-radius-8 {
     border-radius: 8px;
 }
 
-.uH5-boarder-left{
-    border-left: 1px solid #E0E3E5; ;
+.uH5-boarder-left {
+    border-left: 1px solid #E0E3E5;
 }
 
 
 /*Utilities ===> END*/
 
 
-
 /*Icons ===> START*/
 
-.iH5-banner-image{
+.iH5-banner-image {
     background-image: url("../../assets/images/loginBanner.jpg");
 }
 
-.iH5-user-icon{
+.iH5-user-icon {
     background-image: url("../../assets/images/loginIconUser.svg");
 }
 
-.iH5-passkey-icon{
+.iH5-passkey-icon {
     background-image: url("../../assets/images/loginIconPasskey.svg");
 }
 
-.iH5-visability-icon{
+.iH5-visability-icon {
     background-image: url("../../assets/images/visabilityIcon.svg");
 }
-.iH5-image-contain{
+
+.iH5-image-contain {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.iH5-size-a{
+.iH5-size-a {
     padding: 10px;
     margin: 0px 16px;
 }
+
 
 /*Icons ===> END*/
 
 
 /*Colors ===> START*/
-.cH5-c1{
+
+.cH5-c1 {
     color: white;
 }
 
-.cH5-c2{
+.cH5-c2 {
     color: #5D8FFC;
 }
 
-.cH5-c3{
+.cH5-c3 {
     color: #929699;
 }
 
-.cH5-bg-c1{
+.cH5-bg-c1 {
     background-color: #4786FF;
 }
 
