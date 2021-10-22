@@ -1,0 +1,22 @@
+.H5-footer{
+    display: flex;
+    bottom: 0px;
+    height: 247px;
+    width: 100%;
+
+    margin-top: 100px;
+    //position: fixed;
+    //z-index: 100;
+}
+
+
+.iH5-banner-image{
+    background-image: url("../../assets/images/footer.jpg");
+    opacity: 55%;
+}
+
+.iH5-image-contain{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

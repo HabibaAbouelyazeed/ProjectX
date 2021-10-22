@@ -1,0 +1,81 @@
+<div class="H5-grid-container">
+    
+    
+    <!-- Login Banner Image -->
+    <div class="H5-banner-container iH5-banner-image">
+        <i class="iH5-banner-image."></i>
+    </div>
+
+
+    
+    <form [formGroup]="SignUpForm" (ngSubmit)="onSubmit()" class="H5-Form-container uH5-disp-flex uH5-flex-col uH5-justify-center">
+        <h1 class="fH5-poppins cH5-c1 fH5-bold">Sign up now</h1>
+
+
+        <h2 class="fH5-poppins cH5-c1">Parent Info</h2>
+        <label for="firstName">First Name: </label>
+        <input id="firstName" type="text" formControlName="userFirstName">
+
+        <label for="lastName">Last Name: </label>
+        <input id="lastName" type="text" formControlName="userlastName">
+
+        <label for="gender">Gender: </label>
+        <select id="gender" formControlName="gender">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+        </select>
+
+        <label for="email">E-mail: </label>
+        <input id="email" type="text" formControlName="email">
+
+        <label for="password">Password: </label>
+        <input id="password" type="text" formControlName="password">
+
+        <br>
+        <div formGroupName="child" class="uH5-disp-flex uH5-flex-col">
+            <h2 class="fH5-poppins cH5-c1">Child Info</h2>
+        
+            <label for="childName">Child Name: </label>
+            <input id="childName" type="text" formControlName="childName">
+        
+            <label for="childAge">Age: </label>
+            <input id="childAge" type="text" formControlName="childAge">
+        
+            <label for="childGender">Gender: </label>
+            <select id="childGender" formControlName="childGender">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+            </select>
+
+            <label for="disability">Disability: </label>
+            <input id="disability" type="text" formControlName="disability">
+        </div>
+
+        <br>
+        <div formGroupName="address" class="uH5-disp-flex uH5-flex-col">
+            <h2 class="fH5-poppins cH5-c1">Address</h2>
+        
+            <label for="street">Street: </label>
+            <input id="street" type="text" formControlName="street">
+        
+            <label for="city">City: </label>
+            <input id="city" type="text" formControlName="city">
+        
+            <label for="country">Country: </label>
+            <input id="country" type="text" formControlName="country">
+        </div>
+
+
+        <!-- Submit Button -->
+        <p>Complete the form to enable button.</p>
+        <button type="submit" [disabled]="!SignUpForm.valid" class="H5-Submit-button cH5-bg-c1">Submit</button>
+
+    </form>
+
+    <p>Form Status: {{ SignUpForm.status }}</p>
+</div>
+
+
+
+
+
