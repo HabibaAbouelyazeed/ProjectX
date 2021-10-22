@@ -3,7 +3,6 @@ const userModel = require('../database_seeds/models/user')
 const mongoosePort = require('../env_variables/env_vars.json').mongoosePort;
 const jwt = require('jsonwebtoken');
 const KEY = require('../env_variables/env_vars.json').KEY;
-const crypto = require('crypto');
 
 mongoose.connect(mongoosePort)
 

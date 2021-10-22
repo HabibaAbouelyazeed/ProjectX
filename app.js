@@ -7,6 +7,9 @@ const {changePassword} = require('./controllers/changePassword');
 const {changeUsername} = require('./controllers/changeUsername');  
 const {changeEmail} = require('./controllers/changeEmail');  
 const {addChildren} = require('./controllers/addChildren');  
+const {editMeetingType} = require('./controllers/editMeetingType');  
+const {editMeetingTime} = require('./controllers/editMeetingTime');  
+const {editMeetingDisability} = require('./controllers/editMeetingDisability');  
 const {auth} = require('./middlewares/auth')
 const {getUser} = require('./controllers/getUser')
 const {getMeeting} = require('./controllers/getMeeting')
@@ -30,6 +33,9 @@ app.post('/changePassword',changePassword)
 app.post('/changeUsername',changeUsername)
 app.post('/changeEmail',changeEmail)
 app.post('/addChildren',addChildren)
+app.post('/editMeetingType/:meetingId', auth,editMeetingType)
+app.post('/editMeetingTime/:meetingId', auth, editMeetingTime)
+app.post('/editMeetingDisability/:meetingId', auth, editMeetingDisability)
 app.get('/users/:userId', getUser)
 app.get('/meetings/:meetingId', getMeeting)
 app.delete('/users/:userId', auth, deleteUser)
