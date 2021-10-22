@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FilterComponent } from './filter/filter.component';
 import { CardsComponent } from './cards/cards.component';
-import {MatRadioModule} from '@angular/material/radio';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatCardModule } from '@angular/material/card';
 
 
 
@@ -13,7 +14,8 @@ import {MatRadioModule} from '@angular/material/radio';
   ],
   imports: [
     CommonModule,
-    MatRadioModule
+    MatRadioModule,
+    MatCardModule
   ],
   exports: [
     FilterComponent,

@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cards.component.scss']
 })
 export class CardsComponent implements OnInit {
-
-  constructor() { }
+  numbers: any;
+  constructor() {
+    this.numbers = Array(7).fill(0); // [0,1,2,3,4]
+  }
 
   ngOnInit(): void {
   }

@@ -1,1 +1,38 @@
-<p>cards works!</p>
+<section class="Y0-flex-container Y0-flex-dir-col Y0-flex-align-center">
+    <div class="Y0-cards-area Y0-flex-container Y0-flex-around">
+        <div class="Y0-flex-container" *ngFor='let number of numbers'>
+            <mat-card class="Y0-card Y0-flex-container Y0-flex-dir-col">
+                <mat-card-header class="Y0-flex-container Y0-flex-justify-center">
+                    <i class="iY0-card-image1 iY0-size-a"></i>
+                </mat-card-header>
+                <mat-card-content class="Y0-card-content Y0-flex-container Y0-flex-between">
+                    <div class="Y0-flex-container Y0-flex-dir-col Y0-flex-between">
+                        <p class="Y0-font-a">Parent Name</p>
+                        <p class="Y0-font-a">Kid Name</p>
+                        <p class="Y0-font-a">Disability</p>
+                    </div>
+                    <div class="Y0-flex-container Y0-flex-dir-col Y0-flex-between">
+                        <p class="Y0-font-b">Ahmed Mohamed</p>
+                        <p class="Y0-font-b">Ali</p>
+                        <p class="Y0-font-b">Poor sight</p>
+                    </div>
+                </mat-card-content>
+                <mat-card-actions class="Y0-card-actions Y0-flex-container Y0-flex-between">
+                    <button class="Y0-flex-container Y0-pointer Y0-flex-justify-center Y0-flex-align-center Y0-button Y0-font-c">
+                        <i class="iY0-profile iY0-size-b"></i>
+                        Profile
+                    </button>
+                    <button class="Y0-flex-container Y0-pointer Y0-flex-justify-center Y0-flex-align-center Y0-button Y0-font-c">
+                        <i class="iY0-message iY0-size-b"></i>
+                        Message
+                    </button>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+    </div>
+
+    <button class="Y0-flex-container Y0-pointer Y0-flex-justify-center Y0-flex-align-center Y0-moreButton Y0-font-c">
+        <i class="iY0-loadMore iY0-size-b"></i>
+        Load more...
+    </button>
+</section>
