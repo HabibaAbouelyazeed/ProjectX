@@ -6,10 +6,12 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { CommunityPageComponent } from './community-page/community-page.component';
 
 const routes: Routes = [
-  {path: 'signIn', component: SignInPageComponent},
-  {path: 'community', component: CommunityPageComponent},
-  {path: 'home', component: HomePageComponent},
-  //{path: '', redirectTo: '/heroes-list', pathMatch: 'full'}  
+  // Setting the landing page.
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+
+  { path: 'home', component: HomePageComponent },
+  { path: 'signIn', component: SignInPageComponent },
+  { path: 'community', component: CommunityPageComponent }
 ];
 
 @NgModule({
