@@ -11,6 +11,7 @@ import { HomePageModule } from './home-page/home-page.module';
 import { CommunityPageComponent } from './community-page/community-page.component';
 import { CommunityPageModule } from './community-page/community-page.module';
 import { FooterComponent } from './footer/footer.component';
+import { SignUpPageComponent } from './sign-up-page/sign-up-page.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     HomePageComponent,
     CommunityPageComponent,
-    FooterComponent
+    FooterComponent,
+    SignUpPageComponent,
   ],
   imports: [
     BrowserModule,
