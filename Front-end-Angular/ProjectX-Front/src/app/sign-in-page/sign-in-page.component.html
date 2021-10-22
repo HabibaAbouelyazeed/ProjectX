@@ -1,0 +1,41 @@
+<section class="H5-grid-container uH5-marg-center">
+
+    <!-- Login Banner Image -->
+    <div class="H5-banner-container iH5-banner-image">
+        <i class="iH5-banner-image."></i>
+    </div>
+
+    
+    <div class="H5-main-container uH5-disp-flex uH5-flex-center uH5-justify-center">
+        <!-- Login Acions Container -->
+        <div class="H5-info-container uH5-disp-flex uH5-flex-col uH5-justify-spc-betw">
+            <!-- UserName Input Field -->
+            <div class="H5-field-container uH5-disp-flex uH5-radius-8">
+                <i class="iH5-user-icon iH5-size-a iH5-image-contain"></i>
+                <input class="uH5-boarder-left" type="text" name="" id="" placeholder="Username or email">
+            </div>
+
+            <!-- Password Input Field -->
+            <div class="H5-field-container uH5-disp-flex uH5-radius-8">
+                <i class="iH5-passkey-icon iH5-size-a iH5-image-contain"></i>
+                <input class="uH5-boarder-left" name="" id="" placeholder="Password" [type]="inpType ? 'text' : 'password'">
+                <i (click) = 'togglePassword()' class="iH5-visability-icon iH5-size-a iH5-image-contain uH5-marg-left"></i>
+            </div>
+
+            <!-- login Button -->
+
+            <button class="H5-login-button uH5-radius-8 H5-pointer cH5-bg-c1 cH5-c1">
+                LOGIN
+            </button>
+
+            <!-- Other Actions -->
+            <div class="uH5-disp-flex uH5-justify-spc-betw">
+                <a href="" class="H5-pointer cH5-c2">Register</a>
+                <a href="" class="H5-pointer cH5-c3">Forgot Password?</a>
+            </div>
+
+        </div>
+    </div>
+
+
+</section>

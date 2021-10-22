@@ -1,0 +1,131 @@
+a { all: unset; cursor: pointer; }
+
+.H5-pointer{
+    cursor: pointer;
+}
+
+.H5-navBar{
+    top: 0px;
+    height: 80px;
+    width: calc(100% - 48px);
+    padding: 0px 48px;
+    background-image: linear-gradient(to right, rgba(76,234,59,0.39) , rgba(241,249,23,0.39));
+    position: sticky; 
+}
+
+.H5-appTitle{
+    width: 148px;
+    //height: 56px;
+}
+
+.H5-appName{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: #0E4101;
+}
+
+.H5-header-splitter{
+    padding: 0px 1px;
+    height: 24px;
+    //margin: 0px 40px;
+}
+
+.H5-navsContainer{
+    width: 812px;
+}
+
+.H5-signIn-container{
+    width: 181px;
+}
+
+.H5-signIn-buttons{
+    padding: 9px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+/*Utilities ===> START*/
+.uH5-disp-flex{
+    display: flex;
+}
+
+.uH5-flex-center{
+    align-items: center;
+}
+
+.uH5-justify-center{
+    justify-content: center;
+}
+
+.uH5-justify-spc-betw{
+    justify-content: space-between;
+}
+
+
+.uH5-radius-1{
+    border-radius: 1px;
+}
+
+.uH5-radius-8{
+    border-radius: 8px;
+}
+
+/*Utilities ===> END*/
+
+
+/*Icons ===> START*/
+
+.iH5-app-logo{
+    background-image: url("../../assets/images/AppLogo.png");
+}
+
+.iH5-image-contain{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.iH5-size-a{
+    padding: 20px;
+}
+/*Icons ===> END*/
+
+/*Fonts ==> START */
+.fH5-lighter{
+    font-weight: lighter;
+}
+
+.fH5-bold{
+    font-weight: bold;
+}
+
+.fH5-poppins{
+    font-family:poppins;
+}
+
+.fH5-f-12{
+    font-size: 12px;
+}
+
+.fH5-f-20{
+    font-size: 20px;
+}
+/*Fonts ==> END */
+
+/*Colors ==> START */
+.cH5-c1{
+    color: #114A15;
+}
+
+.cH5-c2{
+    color: white;
+}
+
+.cH5-bg-c1{
+    background-color: rgba(51,51,51,0.5);
+}
+
+.cH5-bg-c2{
+    background-color: rgba(17,74,21,0.5);
+}
+/*Colors ==> END */

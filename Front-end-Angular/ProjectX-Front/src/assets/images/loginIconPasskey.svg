@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.041" height="24.041" viewBox="0 0 24.041 24.041">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M20,12H16V8H11.65a6,6,0,1,1,0-4H22V8H20v4ZM6,4A2,2,0,1,0,8,6,2,2,0,0,0,6,4Z" transform="translate(0.979 16.536) rotate(-45)" fill="#d1d1d1"/>
+    </clipPath>
+  </defs>
+  <g id="ic_vpn_key_1" data-name="ic_vpn_key 1" transform="translate(-0.979 -0.979)">
+    <path id="Mask-2" data-name="Mask" d="M20,12H16V8H11.65a6,6,0,1,1,0-4H22V8H20v4ZM6,4A2,2,0,1,0,8,6,2,2,0,0,0,6,4Z" transform="translate(0.979 16.536) rotate(-45)" fill="#d1d1d1"/>
+  </g>
+</svg>
