@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const schema = new Schema({
+    _id: {type: mongoose.Schema.Types.ObjectId},
     discription: {type: String},
     disabilityType: {type: String, required: true},
     dateAndTime: {type: Date, required: true},
